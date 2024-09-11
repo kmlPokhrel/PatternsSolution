@@ -1,0 +1,14 @@
+public class Patterns {
+    public static void main(String[] args) {
+       int count =1;
+        for(int row =0; row < 5; row++) {
+            for(int col =0; col < 5; col++) {
+                System.out.printf("%2d ",count);
+                count++;
+            }
+            System.out.println();
+        }
+
+
+    }
+}
