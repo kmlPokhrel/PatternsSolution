@@ -1,0 +1,26 @@
+//Finding sum of all elements
+import java.util.Scanner;
+
+public class array {
+    public static void main(String[] args) {
+
+//        int A[] = new int[10];
+
+        int A[] = {3,9,7,8,12,6,15,5,4,10};
+        Scanner sc = new Scanner(System.in);
+        System.out.println("Enter the number you want to find");
+        int n = sc.nextInt();
+        for (int i=0; i<A.length; i++) {
+             if (A[i] == n) {
+                 System.out.println("Element found at index " + i);
+             }
+//             else {
+//                 System.out.println("Element not found");
+//             }
+        }
+
+    }
+}
+
+
+
